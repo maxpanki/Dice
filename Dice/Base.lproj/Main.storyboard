@@ -37,7 +37,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aM2-xV-eqc">
                                 <rect key="frame" x="112" y="528" width="150" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.9220355308219178" green="0.29460081335616439" blue="0.26324379280821919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.9220355308219178" green="0.0" blue="0.26324379280821919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <state key="normal" title="Roll">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -53,6 +53,7 @@
                     <connections>
                         <outlet property="diceImageView1" destination="cLw-gT-sAp" id="RJc-GR-LZx"/>
                         <outlet property="diceImageView2" destination="bwr-dr-Qi4" id="taB-Uo-JbF"/>
+                        <outlet property="rollButton" destination="aM2-xV-eqc" id="iRv-lU-a6L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
